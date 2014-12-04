@@ -1,0 +1,3 @@
+cut=xdotool key Alt+x
+copy=xdotool key Alt+c
+paste=xdotool key Alt+v

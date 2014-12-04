@@ -1,0 +1,3 @@
+open my documents=xdg-open $HOME/Documents
+open my musics=xdg-open $HOME/Musics
+open my pictures=xdg-open $HOME/Images

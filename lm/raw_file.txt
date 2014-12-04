@@ -1,0 +1,6 @@
+<s> open my documents </s>
+<s> open my musics </s>
+<s> open my pictures </s>
+<s> cut </s>
+<s> copy </s>
+<s> paste </s>
