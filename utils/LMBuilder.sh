@@ -29,6 +29,8 @@ fi
 lm="$folder/${name[0]}.lm.dmp"
 
 text2wfreq < $raw | wfreq2vocab > $vocab
+read -p "Press any key when finished editing the vocabulary file ($vocab)" -n1 -s
+
 text2idngram -vocab $vocab -idngram $idngram < $raw
 idngram2lm -vocab_type 0 -idngram $idngram -vocab $vocab -arpa $arpa
 sphinx_lm_convert -i $arpa -o $lm

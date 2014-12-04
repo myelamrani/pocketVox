@@ -10,7 +10,7 @@
 # This script will browse all your dictionnaries, get all formated line to
 # create a valid raw that you can paste to a raw file
 # check if there is files
-if [ $@ == "" ] && [ $1 == ""  ];
+if [ "$@" == "" ] && [ "$1" == ""  ];
 then
     echo "No file given !"
 
